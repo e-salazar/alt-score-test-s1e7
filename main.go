@@ -9,7 +9,7 @@ import (
 )
 
 var (
-	systems = map[string]string{ // key: system_name - value: system_code
+	systems = map[string]string{ // [key: system_name] = value: system_code
 		"navigation":       "NAV-01",
 		"communications":   "COM-02",
 		"life_support":     "LIFE-03",
